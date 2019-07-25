@@ -23,7 +23,7 @@ TEST_DATA_FROM_DB = {
 MIMETYPE = 'application/json'
 
 
-class TestLogin:
+class TestSid:
 
     def test_sid_success(self, client, mocker):
         mocker.patch('core.controllers.controllers.SessionDetailsController.get_from_db',
